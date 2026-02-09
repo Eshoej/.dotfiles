@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This is a personal dotfiles repository. Files are deployed to `$HOME` preserving their relative paths (no symlink manager).
+This is a personal dotfiles repository managed with GNU Stow. Files are symlinked to `$HOME` preserving their relative paths.
 
 ## Structure
 
