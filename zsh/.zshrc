@@ -108,5 +108,7 @@ if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
 fi
 export PATH="$HOME/.local/bin:$PATH"
 alias vim='nvim'
-eval "$(mise activate bash)"
+eval "$(mise activate zsh)"
+alias claude-p='CLAUDE_CONFIG_DIR=~/.claude-personal /Users/mdue/.local/bin/claude'
+alias claude-w='CLAUDE_CONFIG_DIR=~/.claude-work /Users/mdue/.local/bin/claude'
 
